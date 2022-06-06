@@ -6,6 +6,12 @@
 super + Return
         kitty
 
+
+
+# Obsidian
+ctrl + 3
+        /home/havel/Appimage/Obsidian-0.14.6.AppImage
+
 # firefox
 ctrl + 2
 	firefox

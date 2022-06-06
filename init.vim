@@ -41,8 +41,6 @@ set rnu
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'ayu-theme/ayu-vim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
 
 call plug#end()
 
