@@ -227,13 +227,17 @@ if [ -x /usr/bin/dircolors ]; then
     alias diff='diff --color=auto'
     alias ip='ip --color=auto'
     alias vi='~/Appimage/nvim.appimage'
-    alias dconf='rm -rf ~/Desktop/CentralGit/1_Config/init.vim ~/Desktop/CentralGit/1_Config/.zshrc ~/Desktop/CentralGit/1_Config/Folders/bspwm ~/Desktop/CentralGit/1_Config/Folders/kitty ~/Desktop/CentralGit/1_Config/Folders/nvim ~/Desktop/CentralGit/1_Config/Folders/sxhkd'
-    alias cconf='cp ~/.config/nvim/init.vim ~/Desktop/CentralGit/1_Config 
+    alias decon='rm -rf ~/Desktop/CentralGit/1_Config/init.vim ~/Desktop/CentralGit/1_Config/.zshrc ~/Desktop/CentralGit/1_Config/Folders/bspwm ~/Desktop/CentralGit/1_Config/Folders/kitty ~/Desktop/CentralGit/1_Config/Folders/nvim ~/Desktop/CentralGit/1_Config/Folders/sxhkd'
+    alias cocon='cp ~/.config/nvim/init.vim ~/Desktop/CentralGit/1_Config 
 cp ~/.zshrc ~/Desktop/CentralGit/1_Config 
 cp -r ~/.config/kitty /home/havel/Desktop/CentralGit/1_Config/Folders 
 cp -r ~/.config/nvim /home/havel/Desktop/CentralGit/1_Config/Folders 
 cp -r ~/.config/bspwm /home/havel/Desktop/CentralGit/1_Config/Folders 
 cp -r ~/.config/sxhkd /home/havel/Desktop/CentralGit/1_Config/Folders '
+    alias cdgit='cd ~/Desktop/CentralGit'
+    alias vitex='vi ~/Desktop/Central_python/indice_text.text'
+    alias opser='python3 -m http.server 8080 --directory ~/Desktop/Central_python'
+
 
 
     export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
